@@ -1,0 +1,54 @@
+.portfolio{
+    width: 100%;
+    height: 100vh;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.portfolio p{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color:#2c3e50
+}
+.portfolio img{
+    width: 100%;
+}
+.portfolio span{
+   
+    background: #2c3e50;
+}
+.portfolio i{
+    color: #2c3e50;
+}
+.layout{
+   
+    position: relative;
+   
+    background: rgba(0,0,0,0.5);
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+}
+.layout .plus{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+   
+}
+.portfolio img:hover .layout{
+   display: block;
+}
+.portfolio .info2{
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+     margin-bottom: 2%;
+     color: #2c3e50;
+  
+}
